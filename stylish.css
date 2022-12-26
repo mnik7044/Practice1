@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20%;
+    padding-top:10%;
+    padding-left: 30%;
+}
+img{
+    width: 300px;
+    
+    border-radius: 5% 0 0 5%;
+    
+}
+h1{
+    
+    font-family: Fraunces;
+    font-weight: 700;
+    
+}
+
+
+
+.main-cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 1.3rem;
+    background-color:#fff;
+    
+    
+}
+.prod{
+    
+   
+    margin-left: 2rem ;
+    
+}
+.first-word{
+    color: #6c7289;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.header{
+    font-family: Fraunces;
+    font-weight: 700;
+    width: 50%;
+    color:#1c232b;
+
+
+}
+.first-sent{
+    color:#6c7289;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight:lighter;
+    font-family: Montserrat;
+    width: 60%;
+}
+.main-pric{
+    display:inline;
+    color:#3c8067;
+    font-family: Fraunces;
+    font-weight: 700;
+    margin: 0;
+
+}
+.bp{
+    text-decoration:line-through;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #6c7289;
+    margin-left : 2rem;
+}
+
+.prices
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn{
+    
+        background-color: #3c8067;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 700;
+        color: #ffffff;
+        max-width: 200vw;
+        padding: 15px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+    
+    }
+    .btn:hover{
+        background-color: #1c232b;
+    }
